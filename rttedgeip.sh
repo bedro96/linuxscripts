@@ -1,4 +1,5 @@
 #!/bin/bash
+systemctl stop firewalld
 rm edgeiplist
 wget https://raw.githubusercontent.com/bedro96/linuxscripts/master/edgeiplist
 input="./edgeiplist"
