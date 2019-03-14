@@ -1,7 +1,6 @@
 #!/bin/sh 
 set -ex 
 echo "Updating packages ..." 
-sudo yum -y update 
 sudo yum -y group install "Development tools" 
 echo "Installing lftp" 
 sudo yum -y install lftp 
